@@ -35,7 +35,7 @@ source bin/activate
 Jupyter innerhalb der virtuellen Umgebung installieren
 
 ```bash
-pip install jupyter
+pip install jupyterlab
 ```
 
 Danach am besten einen eigenen Bereich für die Notebooks anlegen
@@ -63,3 +63,4 @@ git clone https://github.com/gbv/vzg.jconv-example.git
 cd $HOME/jupyter/notebooks/vzg.jconv-example
 jupyter lab
 ```
+Dieser Aufruf wird das Notebook im Browser öffnen.
