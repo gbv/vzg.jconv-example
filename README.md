@@ -48,7 +48,7 @@ mkdir $HOME/jupyter/notebooks
 
 ```bash
 cd $HOME/jupyter
-pip install git+https://github.com/gbv/vzg.jconv.git
+pip install vzg.jconv
 ```
 
 ### Beispiel Notebook installieren
