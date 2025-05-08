@@ -1,6 +1,7 @@
-# Beispiel-Notebook für eine Konvertierung in das VZG JSON Austauschformat
+# Beispiel-Notebooks für eine Konvertierung in das VZG JSON Austauschformat
 
-Das Beispiel-Notebook befindet sich in der Datei [example.ipynb](example.ipynb)
+- [example.ipynb](example.ipynb) Konvertierung in das Austauschformat
+- [oai.ipynb](oai.ipynb) OAI Abruf absetzen und apspeichern
 
 ## Lokale Installation
 
@@ -8,7 +9,7 @@ Das Beispiel liegt in Form eines [Jupyter](https://jupyter.org "Jupyter Homepage
 Falls man das Notebook selbst ausführen möchte, benötigt man z.B. eine lokale Jupyter Instanz.
 Diese lässt sich recht simpel mithilfe einer virtuellen Python Umgebung erstellen.
 
-Der Python-Interpreter muss mindestens in der Version 3.6 oder höher vorliegen.
+Der Python-Interpreter muss mindestens in der Version 3.12 oder höher vorliegen.
 
 ### Jupyter Installation auf einem Linux-System, z.B. Ubuntu
 
@@ -57,10 +58,12 @@ pip install vzg.jconv
 cd $HOME/jupyter/notebooks
 git clone https://github.com/gbv/vzg.jconv-example.git
 ```
+
 ### Jupyter starten und das Notebook benutzen
 
 ```bash
 cd $HOME/jupyter/notebooks/vzg.jconv-example
 jupyter lab
 ```
+
 Dieser Aufruf wird das Notebook im Browser öffnen.
