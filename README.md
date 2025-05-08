@@ -1,7 +1,7 @@
 # Beispiel-Notebooks für eine Konvertierung in das VZG JSON Austauschformat
 
 - [example.ipynb](example.ipynb) Konvertierung in das Austauschformat
-- [oai.ipynb](oai.ipynb) OAI Abruf absetzen und apspeichern
+- [oai-request.ipynb](oai-request.ipynb) OAI Abruf absetzen und apspeichern
 
 ## Lokale Installation
 
